@@ -115,14 +115,7 @@ export function Navbar({
         </nav>
 
         <div className="landing-nav-actions">
-          <button
-            type="button"
-            className="nav-cta-btn"
-            onClick={() => onNavigateToLogin?.()}
-            aria-label="Access System Portal Login"
-          >
-            Access System Portal
-          </button>
+
 
           <button
             type="button"

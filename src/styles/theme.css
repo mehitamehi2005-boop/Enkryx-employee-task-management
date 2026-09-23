@@ -134,7 +134,7 @@ textarea:focus-visible {
 .nav-link {
   align-items: center;
   border-radius: var(--radius-sm);
-  color: var(--sidebar-muted);
+  color: #197ebc;
   display: flex;
   font-size: 14px;
   font-weight: 500;
