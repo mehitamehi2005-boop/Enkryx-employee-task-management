@@ -68,7 +68,7 @@ export function AppShell({ employee, onLogout }) {
     <div className="app-shell">
       <aside className={`sidebar${isMenuOpen ? ' is-open' : ''}`} aria-label="Primary navigation">
         <a className="brand" href="#main-content" aria-label="ENKRYX dashboard">
-          <span className="brand-mark" aria-hidden="true">E</span><span>ENKRYX</span>
+          <img src="/enkryx-logo.jpeg" alt="ENKRYX" className="brand-logo" />
         </a>
         <nav className="navigation">
           <p className="navigation-label">Administration</p>

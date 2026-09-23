@@ -110,6 +110,13 @@
   width: 28px;
 }
 
+.landing-brand .brand-logo {
+  width: 180px;
+  height: 65px;
+  object-fit: contain;
+  display: block;
+}
+
 .landing-nav-links {
   align-items: center;
   display: flex;

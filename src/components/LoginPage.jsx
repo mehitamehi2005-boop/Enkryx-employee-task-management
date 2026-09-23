@@ -10,14 +10,14 @@ export function LoginPage({ onBack, roleHint }) {
   const eyebrowText = roleHint === 'admin'
     ? 'Admin Management Portal'
     : roleHint === 'employee'
-    ? 'Employee Workspace'
-    : 'Employee task management';
+      ? 'Employee Workspace'
+      : 'Employee task management';
 
   const subtitleText = roleHint === 'admin'
     ? 'Sign in with your administrator credentials.'
     : roleHint === 'employee'
-    ? 'Sign in with your employee credentials.'
-    : 'Sign in to access your workspace.';
+      ? 'Sign in with your employee credentials.'
+      : 'Sign in to access your workspace.';
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -72,8 +72,7 @@ export function LoginPage({ onBack, roleHint }) {
           }}
           aria-label="ENKRYX Home"
         >
-          <span className="brand-mark" aria-hidden="true">E</span>
-          <span>ENKRYX</span>
+          <img src="/enkryx-logo.jpeg" alt="ENKRYX" className="brand-logo" />
         </a>
 
         <div className="login-copy">

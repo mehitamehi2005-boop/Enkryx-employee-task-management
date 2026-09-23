@@ -110,8 +110,7 @@ export function EmployeeDashboard({ employee, name, onLogout }) {
       <header className="employee-header">
         <div className="employee-header-left">
           <a className="brand employee-brand" href="#employee-content" aria-label="ENKRYX employee workspace">
-            <span className="brand-mark" aria-hidden="true">E</span>
-            <span>ENKRYX</span>
+            <img src="/enkryx-logo.jpeg" alt="ENKRYX" className="brand-logo" />
           </a>
           <nav className="employee-nav" aria-label="Employee primary navigation">
             <button

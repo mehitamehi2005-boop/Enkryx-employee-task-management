@@ -68,8 +68,7 @@ export function Navbar({
           }}
           aria-label="ENKRYX Homepage"
         >
-          <span className="brand-mark" aria-hidden="true">E</span>
-          <span>ENKRYX</span>
+          <img src="./enkryx-logo.jpeg" alt="ENKRYX" className="brand-logo" />
         </a>
 
         <nav className="landing-nav-links" aria-label="Landing page navigation">
